@@ -1,0 +1,9 @@
+from .dtd import DTD as DTD
+from .eurosat import EuroSAT as EuroSAT
+from .gtsrb import GTSRB as GTSRB
+from .mnist import MNIST as MNIST
+from .resisc45 import RESISC45 as RESISC45
+from .stanford_cars import StanfordCars as StanfordCars
+from .sun397 import SUN397 as SUN397
+from .svhn import SVHN as SVHN
+from .transforms import Transforms as Transforms
