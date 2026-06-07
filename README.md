@@ -1,6 +1,6 @@
 # Label-Free Cross-Task LoRA Merging with Null-Space Compression [CVPR 2026]
 
-**Official PyTorch implementation of [*Label-Free Cross-Task LoRA Merging with Null-Space Compression*] [CVPR 2026].**
+**Official PyTorch implementation of [*Label-Free Cross-Task LoRA Merging with Null-Space Compression*](https://arxiv.org/abs/2603.26317) [CVPR 2026].**
 
 Wonyoung Lee\* & Wooseong Jeong\* & Kuk-Jin Yoon, Korea Advanced Institute of Science and Technology (KAIST)
 
@@ -150,10 +150,11 @@ python src/merge.py --help
 If you find this code useful, please cite the following paper:
 
 ```bibtex
-@article{lee2026label,
+@inproceedings{lee2026label,
   title={Label-Free Cross-Task LoRA Merging with Null-Space Compression},
   author={Lee, Wonyoung and Jeong, Wooseong and Yoon, Kuk-Jin},
-  journal={arXiv preprint arXiv:2603.26317},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={847--859},
   year={2026}
 }
 ```
